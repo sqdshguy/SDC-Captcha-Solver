@@ -15,8 +15,7 @@ const options = {
   'maxRedirects': 20
 };
 
-const urlToCaptcha = "https://cdn.discordapp.com/attachments/663398140736569355/695716719682912326/captcha.png"; // Ссылка на каптчу SD.C
-
+const urlToCaptcha = "https://cdn.discordapp.com/attachments/663398140736569355/695716719682912326/captcha.png"; // Link to SD.C captcha
 
 const req = https.request(options, (res) => {
   var chunks = [];
