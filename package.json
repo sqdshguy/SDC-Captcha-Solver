@@ -1,0 +1,14 @@
+{
+  "name": "sdc-captcha-solver",
+  "version": "1.0.0",
+  "description": "Script to solve SD.C captchas using OCR.",
+  "main": "sdc.js",
+  "scripts": {
+    "start": "node sdc.js"
+  },
+  "author": "Mrsasha45op",
+  "license": "MIT",
+  "dependencies": {
+    "follow-redirects": "^1.11.0"
+  }
+}
