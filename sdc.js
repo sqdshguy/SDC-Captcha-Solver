@@ -1,9 +1,9 @@
 // jshint esversion: 6
 const config = {
-    solveKey: "ТОКЕН_OCR_SPACE",
-    token: "ТОКЕН_БОТА",
+    solveKey: "OCR_SPACE_TOKEN",
+    token: "BOT_TOKEN",
     channel: {
-        id: "ID_КАНАЛА_ДЛЯ_ПРОПИСАНИЯ_КОМАНД",
+        id: "CHANNEL_ID",
         message: "s.up"
     }
 };
@@ -16,7 +16,7 @@ const client = new Client({
 });
 
 function bump(chID, chCommand) {
-    console.info('WAIT | Попытка бампнуть сервер..');
+    console.info('WAIT | Bumping server..');
     return client.channels.get(chID).send(chCommand);
 }
 
