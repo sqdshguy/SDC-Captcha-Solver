@@ -5,7 +5,6 @@
 const https = require('follow-redirects').https,
       fs = require('fs');
 
-
 function solve(url, apikey){
   const options = {
     'method': 'POST',
@@ -44,7 +43,6 @@ function solve(url, apikey){
 }
 
 module.exports = solve;
-
 
 
 
