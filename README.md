@@ -16,7 +16,7 @@ solve(url, apikey)
 
 # Install
 ```
-$ npm i github:sqdshcom/sdc-captcha-solver
+$ npm i sdc-captcha-solver
 ```
 
 # Special thanks to
