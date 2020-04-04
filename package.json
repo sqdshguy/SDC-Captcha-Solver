@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "follow-redirects": "^1.11.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mrsasha45op"
   }
 }
