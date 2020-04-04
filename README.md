@@ -15,10 +15,10 @@ solve(url, apikey)
 ```
 
 # Install
-```
+```js
 $ npm i sdc-captcha-solver
 ```
 
 # Special thanks to
-@D3rise - Idea: rewrite script to a library<br>
-@vladciphersky - Whole project idea
+[@D3rise](https://github.com/D3rise) | Idea: rewrite script to a library<br>
+[@vladciphersky](https://github.com/vladciphersky) |  Whole project idea
