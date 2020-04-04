@@ -1,18 +1,19 @@
 {
-  "name": "sdc-captcha-solver",
-  "version": "1.1.2",
-  "description": "Script to solve SD.C captchas using OCR.",
-  "main": "sdc.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sqdshcom/SDC-Captcha-Solver.git"
-  },
-  "author": "Mrsasha45op",
-  "license": "MIT",
-  "dependencies": {
-    "follow-redirects": "^1.11.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@mrsasha45op"
-  }
+    "name": "sdc-bump",
+    "version": "1.0.0",
+    "description": "Авто-бампер для Server-Discord.com использующий SDC-Captcha-Solver",
+    "main": "sdc.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sqdshcom/SDC-Captcha-Solver/tree/v11.5.1-example"
+    },
+    "author": {
+        "name": "Sqdsh.Community (cipherskyinc)",
+        "url": "https://sqdsh.top"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^11.5.1",
+        "sdc-captcha-solver": "github:sqdshcom/SDC-Captcha-Solver"
+    }
 }
