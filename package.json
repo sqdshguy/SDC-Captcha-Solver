@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Script to solve SD.C captchas using OCR.",
   "main": "sdc.js",
-  "scripts": {
-    "start": "node sdc.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sqdshcom/SDC-Captcha-Solver.git"
   },
   "author": "Mrsasha45op",
   "license": "MIT",
