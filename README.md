@@ -1,24 +1,7 @@
-# SDC Captcha Solver
-Library to solve SD.C captchas using OCR.
+# SDC Captcha Solver | v11.5.1-example
+Example of discord selfbot for solve Server-Discord.com bot captcha
 
-# Example usage
-```js
-const solve = require("sdc-captcha-solver");
-
-const url = "", // Url to SD.C captcha
-    apikey = ""; // Your API key on ocr.space
-
-solve(url, apikey)
-    .then(r => {
-        console.log(r)
-    });
-```
-
-# Install
-```
-$ npm i sdc-captcha-solver
-```
-
-# Special thanks to
-@D3rise - Idea: rewrite script to a library<br>
-@vladciphersky - Whole project idea
+# Launching
+1. Install dependencies (`npm install`)
+2. Edit configuration in `sdc.js`
+3. Launch bot (`node sdc.js` OR `pm2 start sdc.js --name SDC-Captcha-Solver`)
