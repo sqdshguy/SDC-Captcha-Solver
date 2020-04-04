@@ -1,7 +1,7 @@
 {
     "name": "sdc-bump",
     "version": "1.0.0",
-    "description": "Авто-бампер для Server-Discord.com использующий SDC-Captcha-Solver",
+    "description": "Example of discord selfbot for solve Server-Discord.com bot captcha",
     "main": "sdc.js",
     "repository": {
         "type": "git",
