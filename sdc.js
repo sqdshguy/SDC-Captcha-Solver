@@ -4,7 +4,7 @@
 const https = require('follow-redirects').https,
       fs = require('fs');
 
-function solve(url, apikey){
+function solve (url, apikey) {
   const options = {
     'method': 'POST',
     'hostname': 'api.ocr.space',
